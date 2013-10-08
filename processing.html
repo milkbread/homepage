@@ -5,7 +5,7 @@
  <link rel="stylesheet" href="homepage_style.css" />
  <title>Ralf Klammer - Processing</title>
  <style>
- ul ul p{
+ div p{
  	color:rgb(100,0,0);
  }
  </style>
@@ -37,28 +37,103 @@
 	
 	  </ul>
 	  <ul>
-		<li>Visualising scales in tile-based maps (respectively mercator-projection)</li>
-		<ul>
-			<li>
-				<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscaleBar" target=blank_>
-					<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscaleBar/tilesNscaleBar.png" alt="tilesNscaleBar" width=25%>
-				</a>
-			</li>
-			<li>
-				<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscale" target=blank_>
-					<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscale/tilesNscale.png" alt="tilesNscale" width=50%>
-				</a>
-			</li>
-			<li>
-				<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscalesNanimation" target=blank_>
-					<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscalesNanimation/scalesNanimation.png" alt="scalesNanimation" width=50%>
-				</a>
-			</li>
-		<p>(These projects cannot be executed directly as servlet, as it is not simply possible to load external data (map tiles) in a browser-servlet!<br>
+		<li>Different projects using the <a href="http://unfoldingmaps.org/" target=blank_>Unfolding</a> library to visualise tile based maps</li>
+		<p>(The following projects are not available as servlet, as it is not simply possible to load external data (map tiles) in a browser-servlet! <a href="http://forum.processing.org/one/topic/unfolding-and-tilemill-problem-with-applet-export.html" target=blank_>(see here)</a><br>
 		If you want to test them, you have to download the project and execute them locally in 'Processing'!)</p>
-		</ul><br>
-	
-	  </ul>
+		<ul>
+			<li>Cool maps</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscaleATtileMill" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscaleATtileMill/tilesNscaleATtileMill.png" alt="tilesNscaleATtileMill" width=50%>
+					</a>
+				...map of saxonian vogtland ... streamed from <a href="http://www.mapbox.com/tilemill/" target=blank_>TileMill</a> ... calculating and visualising the map scale
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscalesNanimation" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscalesNanimation/scalesNanimation.png" alt="scalesNanimation" width=50%>
+					</a>
+				...world map of earthquakes in 2009 ... streamed from web ... calculating an visualising the map scale
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscale" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscale/tilesNscale.png" alt="tilesNscale" width=50%>
+					</a>
+				</li>
+				...world map ... streamed from web ... calculating an visualising the map scale
+			</ul><br>
+			<li>2 ways to stream map tiles</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesATmbtiles" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesATmbtiles/tilesAtmbtiles.png" alt="tilesAtmbtiles" width=25%>
+					</a>
+				...via <a href="http://www.mapbox.com/developers/mbtiles/" target=blank_>'mbtiles'</a>
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesATtileMill" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesATtileMill/tilesATtileMill.png" alt="tilesATtileMill" width=25%>
+					</a>
+				...via '<a href="http://www.mapbox.com/tilemill/" target=blank_>TileMill</a>'-direct-stream
+				</li>
+			</ul><br>
+			<li>Multiple Maps...</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNmultipleMaps" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNmultipleMaps/tilesNmultipleMaps.png" alt="tilesNmultipleMaps" width=25%>
+					</a>
+				...3 maps
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNmultipleMaps_0_1" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNmultipleMaps_0_1/tilesNmultipleMaps_0.1.png" alt="tilesNmultipleMaps_0.1" width=25%>
+					</a>
+				...1st pre-stage
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNmultipleMaps_0_2" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNmultipleMaps_0_2/tilesNmultipleMap_0.2.png" alt="tilesNmultipleMap_0.2" width=25%>
+					</a>
+				...2nd pre-stage
+				</li>
+			</ul><br>
+			<li>Managing markers...</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_mapNmarker" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_mapNmarker/mapNmarker.png" alt="mapNmarker" width=25%>
+					</a>
+				...a static and a dynimic marker (unmanaged)
+				</li>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNmarkerManager" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNmarkerManager/tilesNmarkerManager.png" alt="tilesNmarkerManager" width=25%>
+					</a>
+				...marker manager
+				</li>
+			</ul><br>
+			<li>Scales in tile-based maps (respectively mercator-projection)...</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNscaleBar" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNscaleBar/tilesNscaleBar.png" alt="tilesNscaleBar" width=25%>
+					</a>
+				...1st experiment
+				</li>
+			</ul><br>
+			<li>Just for fun...</li>
+			<ul>
+				<li>
+					<a class="myLinks" href="https://github.com/milkbread/ProcessingStuff/tree/master/unfolding_tilesNgenerativeExperiment" target=blank_>
+						<img src="https://raw.github.com/milkbread/ProcessingStuff/master/unfolding_tilesNgenerativeExperiment/tilesNgenerativeExperiment.png" alt="tilesNgenerativeExperiment" width=25%>
+					</a>
+				...a generative experiment
+				</li>
+			</ul><br>
+					
+		  </ul>	     
+	  	</ul>
 
 	<br>You can do so many <a class="myLinks" href='http://vimeo.com/10199455' target='blank_'>cool things</a> with Processing!
 	</div>
